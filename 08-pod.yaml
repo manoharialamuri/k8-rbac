@@ -7,7 +7,7 @@ spec:
   serviceAccountName: roboshop-secret-reader
   containers:
   - name: aws-cli
-    image: awazon/aws-cli
+    image: amazon/aws-cli
     command: ["sleep","2000"]
 
 #it automatically opens port number 80
